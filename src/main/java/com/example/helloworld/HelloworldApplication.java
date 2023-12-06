@@ -16,7 +16,7 @@ public class HelloworldApplication {
 	@GetMapping("/hello")
 	public String helloWorld()
 	{
-		return "Helloworld working as expected with tomcat and docker deployment";
+		return "Hello world working as expected with tomcat and docker deployment V8";
 	}
 
 }
